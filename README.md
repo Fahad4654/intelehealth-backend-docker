@@ -1,9 +1,11 @@
-# intelehealth-backend-docker
-##pre-requisite
+## intelehealth-backend-docker
+
+# pre-requisite
+
 1. sudo-less docker
 2. openmrs (https://github.com/Fahad4654/intelehealth-Docker)
 
-##steps
+# steps
 
 step-1:
 
