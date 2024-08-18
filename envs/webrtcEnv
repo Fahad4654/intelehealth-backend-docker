@@ -1,7 +1,7 @@
 PORT=3000
 SECRET=secret
 API_KEY=devkey
-SSL=true  # make this true and pass cert and key path below to enable ssl and making site https
+SSL=true
 SSL_CERT_PATH=/root/app/web-rtc/.pem/fullchain.pem
 SSL_KEY_PATH=/root/app/web-rtc/.pem/private_key.pem
 LIVEHOST=127.0.0.1
