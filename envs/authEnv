@@ -1,0 +1,7 @@
+PORT=3030
+NODE_ENV=production
+SSL_KEY_PATH=/root/app/auth-gateway/.pem/private_key.pem
+SSL_CERT_PATH=/root/app/auth-gateway/.pem/fullchain.pem
+DOMAIN=localhost
+#ALLOWED_ORIGINS=[xxxx, xxxx, xxxx]
+ALLOWED_ORIGINS=["http://localhost:3000","http://localhost:4200","http://127.0.0.1:3030"]
