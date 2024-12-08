@@ -1,5 +1,5 @@
 NODE_ENV=prod
-DOMAIN=localhost
+DOMAIN=example.com
 OPENMRS_USERNAME=admin
 OPENMRS_PASS=
 MYSQL_HOST=
@@ -11,9 +11,8 @@ MYSQL_DB=mindmap_server
 MYSQL_OPENMRS_DB=openmrs
 
 VAPID_MAILTO=
-SSL_PRIVATE_KEY=/root/app/portal/.pem/private_key.pem
-SSL_CERT=/root/app/portal/.pem/fullchain.pem
-
+SSL_PRIVATE_KEY=/etc/letsencrypt/live/example.com/privkey.pem
+SSL_CERT=/etc/letsencrypt/live/example.com/fullchain.pem
 OAUTH_CLIENT_ID=
 OAUTH_CLIENT_SECRET=
 VAPID_PUBLIC_KEY=
@@ -32,4 +31,4 @@ AWS_REGION=
 AWS_BUCKET_NAME=
 AWS_URL=
 
-ALLOWED_ORIGINS=["http://localhost:4200","http://localhost:4200","http://localhost:3030","http://127.0.0.1:3030"]
+ALLOWED_ORIGINS=["http://localhost:3000","http://localhost:4200","http://127.0.0.1:3030","https://example.com:3030","https://example.com:4200"]
